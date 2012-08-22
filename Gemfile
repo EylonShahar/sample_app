@@ -37,6 +37,10 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+group :development do
+	gem 'rspec-rails'
+end
+
 group :test do
 	gem 'rspec'
 	gem 'webrat'
